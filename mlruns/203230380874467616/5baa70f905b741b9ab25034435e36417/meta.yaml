@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/5baa70f905b741b9ab25034435e36417/artifacts
+end_time: 1718473546458
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: 5baa70f905b741b9ab25034435e36417
+run_name: respected-snipe-807
+run_uuid: 5baa70f905b741b9ab25034435e36417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473544939
+status: 3
+tags: []
+user_id: CHENGAPPA

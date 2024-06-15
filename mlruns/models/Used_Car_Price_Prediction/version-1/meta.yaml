@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1718473887404
+current_stage: None
+description: ''
+last_updated_timestamp: 1718473887404
+name: Used_Car_Price_Prediction
+run_id: d64c90c7bfce4968b0d1530518043e86
+run_link: ''
+source: mlflow-artifacts:/203230380874467616/d64c90c7bfce4968b0d1530518043e86/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/203230380874467616/d64c90c7bfce4968b0d1530518043e86/artifacts/model
+user_id: null
+version: 1

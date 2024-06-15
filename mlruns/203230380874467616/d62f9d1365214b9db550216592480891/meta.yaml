@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/d62f9d1365214b9db550216592480891/artifacts
+end_time: 1718473408015
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: d62f9d1365214b9db550216592480891
+run_name: silent-kite-622
+run_uuid: d62f9d1365214b9db550216592480891
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473405807
+status: 3
+tags: []
+user_id: CHENGAPPA

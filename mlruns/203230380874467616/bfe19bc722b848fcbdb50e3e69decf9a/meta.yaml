@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/bfe19bc722b848fcbdb50e3e69decf9a/artifacts
+end_time: 1718473265344
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: bfe19bc722b848fcbdb50e3e69decf9a
+run_name: peaceful-deer-394
+run_uuid: bfe19bc722b848fcbdb50e3e69decf9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473262961
+status: 3
+tags: []
+user_id: CHENGAPPA

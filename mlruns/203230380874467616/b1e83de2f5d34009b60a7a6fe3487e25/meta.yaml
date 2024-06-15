@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/b1e83de2f5d34009b60a7a6fe3487e25/artifacts
+end_time: 1718473704852
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: b1e83de2f5d34009b60a7a6fe3487e25
+run_name: nimble-ram-859
+run_uuid: b1e83de2f5d34009b60a7a6fe3487e25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473703372
+status: 3
+tags: []
+user_id: CHENGAPPA

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/2a82f9394eda45a39dbe8eba45def871/artifacts
+end_time: 1718473191369
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: 2a82f9394eda45a39dbe8eba45def871
+run_name: clumsy-croc-193
+run_uuid: 2a82f9394eda45a39dbe8eba45def871
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473191278
+status: 4
+tags: []
+user_id: CHENGAPPA

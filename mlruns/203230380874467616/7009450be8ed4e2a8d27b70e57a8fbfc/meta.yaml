@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/7009450be8ed4e2a8d27b70e57a8fbfc/artifacts
+end_time: 1718473636313
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: 7009450be8ed4e2a8d27b70e57a8fbfc
+run_name: mercurial-fowl-926
+run_uuid: 7009450be8ed4e2a8d27b70e57a8fbfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473634813
+status: 3
+tags: []
+user_id: CHENGAPPA

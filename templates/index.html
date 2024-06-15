@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Used Car Price Predictor</title>
+    <style>
+        body {
+            background-color: #f0f0f0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0; 
+            font-family: Arial, sans-serif; 
+        }
+
+        .container {
+            background-color: white; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+            width: 400px; 
+        }
+
+        h1 {
+            color: #333; 
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, button {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50; 
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; 
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .clear-button {
+            background-color: #f44336; 
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .clear-button:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Used Car Price Predictor</h1>
+        <form action="/predict" method="post">
+            <label for="on_road_old">On Road Price (Old)</label>
+            <input type="text" id="on_road_old" name="on_road_old" {% if form_values and 'on_road_old' in form_values %}value="{{ form_values['on_road_old'] }}"{% endif %}><br><br>
+            
+            <label for="on_road_now">On Road Price (Now)</label>
+            <input type="text" id="on_road_now" name="on_road_now" {% if form_values and 'on_road_now' in form_values %}value="{{ form_values['on_road_now'] }}"{% endif %}><br><br>
+            
+            <label for="economy">Economy</label>
+            <input type="text" id="economy" name="economy" {% if form_values and 'economy' in form_values %}value="{{ form_values['economy'] }}"{% endif %}><br><br>
+            
+            <label for="condition">Condition</label>
+            <input type="text" id="condition" name="condition" {% if form_values and 'condition' in form_values %}value="{{ form_values['condition'] }}"{% endif %}><br><br>
+            
+            <label for="rating">Rating</label>
+            <input type="text" id="rating" name="rating" {% if form_values and 'rating' in form_values %}value="{{ form_values['rating'] }}"{% endif %}><br><br>
+            
+            <button type="submit">Predict Price</button>
+        </form>
+
+        {% if prediction_text %}
+        <div class="result">
+            <h2>{{ prediction_text }}</h2>
+            <button class="clear-button" onclick="clearForm()">Clear</button>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        function clearForm() {
+            document.querySelector("form").reset(); 
+            fetch('/clear', { method: 'POST' }); 
+        }
+    </script>
+</body>
+</html>

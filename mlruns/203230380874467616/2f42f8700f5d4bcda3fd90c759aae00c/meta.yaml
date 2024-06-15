@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/203230380874467616/2f42f8700f5d4bcda3fd90c759aae00c/artifacts
+end_time: 1718473799169
+entry_point_name: ''
+experiment_id: '203230380874467616'
+lifecycle_stage: active
+run_id: 2f42f8700f5d4bcda3fd90c759aae00c
+run_name: skillful-trout-278
+run_uuid: 2f42f8700f5d4bcda3fd90c759aae00c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718473797546
+status: 3
+tags: []
+user_id: CHENGAPPA
